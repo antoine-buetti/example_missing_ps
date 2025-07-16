@@ -1,8 +1,6 @@
 #!/usr/bin/env nextflow
 
-params.input_dir="$projectDir/input/"
 params.outdir="results"
-params.thresh_moving=0
 
 workflow {
     plot()
