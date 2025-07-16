@@ -13,6 +13,7 @@
             "required": [
                 "outdir"
             ],
+            "properties": {
                 "outdir": {
                     "type": "string",
                     "format": "directory-path",
@@ -27,13 +28,5 @@
             "$ref": "#/$defs/input_output_options"
         }
     ],
-    "properties": {
-        "thresh_moving": {
-            "type": "string",
-            "default": "0"
-        }
-    },
-    "required": [
-        "thresh_moving"
-    ]
+    "properties": {}
 }
